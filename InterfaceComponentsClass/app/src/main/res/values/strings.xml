@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">InterfaceComponentsClass</string>
-    <string name="btn_jogar">Jogue</string>
+    <string name="btn_jogar">Play</string>
 </resources>

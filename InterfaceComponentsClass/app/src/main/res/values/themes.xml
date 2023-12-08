@@ -1,8 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.InterfaceComponentsClass" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
+
+        <!-- Cores primárias -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item>
+        <item name="colorOnPrimary">@color/item_primaria</item>
+
+        <!-- Cores secundárias -->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/item_secundaria</item>
+        <item name="colorOnSecondary">@color/item_secundaria</item>
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Cor da barra de status -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
     </style>
 
     <style name="Theme.InterfaceComponentsClass" parent="Base.Theme.InterfaceComponentsClass" />

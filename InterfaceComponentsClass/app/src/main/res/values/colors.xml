@@ -3,5 +3,21 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#F80000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="texto_botao">#247CF3</color>
+
+
+    <color name="primaria">#E91E63</color>
+    <color name="primaria_variacao">#8E0634</color>
+    <color name="item_primaria">#FFEB3B</color>
+
+    <color name="secundaria">#82B851</color>
+    <color name="item_secundaria">#0C419C</color>
+    <color name="fundo">#959595</color>
 
 </resources>
