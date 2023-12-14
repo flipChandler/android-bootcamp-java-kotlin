@@ -73,7 +73,6 @@ public class QRCodeScanner extends AppCompatActivity {
             checkPermissionAndShowActivity(this);
         });
     }
-
     @RequiresApi(api = Build.VERSION_CODES.M)
     private void checkPermissionAndShowActivity(Context context) {
         if (ContextCompat.checkSelfPermission(
@@ -82,7 +81,7 @@ public class QRCodeScanner extends AppCompatActivity {
         ) == PackageManager.PERMISSION_GRANTED) {
             showCamera();
         } else if (shouldShowRequestPermissionRationale(Manifest.permission.CAMERA)) {
-                Toast.makeText(context, "Camera permission required", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Camera permission required", Toast.LENGTH_SHORT).show();
         } else {
             requestPermissionLauncher.launch(Manifest.permission.CAMERA);
         }
